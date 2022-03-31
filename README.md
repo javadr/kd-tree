@@ -8,7 +8,7 @@ In computer science, a k-dimensional tree is a space-partitioning data structure
 `nearestPointInSubtree` function calls itself recursively. It also takes care of the edge cases (e.g. one child node).
 This is done as follows:
 1. Figures out on which side of the separating hyperplane the query point lies and recursively descends into that part of the tree.
-2. If the distance of the query point to the best point in that sub-tree is smaller than the distance to the separating hyperplane (axisDistToRoot), just returns the best point and corresponding distance from that sub-tree.
+2. If the distance of the query point to the best point in that sub-tree is smaller than the distance to the separating hyperplane (`axisDistToRoot`), just returns the best point and corresponding distance from that sub-tree.
 3. Otherwise the closest point to the query point can also be the root node or a point in the other sub-tree. Calculates all distances and return the node with the smallest distance to the query point.
 
 ## Compile
