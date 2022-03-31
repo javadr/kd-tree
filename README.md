@@ -13,8 +13,7 @@ This is done as follows:
 
 ## Compile
 
-    `g++ -std=c++17 kdtree.cpp -o kdtree`
+    `g++ -std=c++17 kdtree.cpp -o kdtree.out`
 or
 
     `make`
-
