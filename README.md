@@ -1,5 +1,4 @@
 # kd-tree
-KD-Tree implementation  in C++
 ---
 In computer science, a k-dimensional tree is a space-partitioning data structure for organizing points in a k-dimensional space. In machine learning, we sometimes have to find the nearest neighbour for a given point. This can be efficiently done using k-d trees. k-d trees are a special case of binary space partitioning trees.
 
